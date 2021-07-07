@@ -5,6 +5,9 @@ Fulfill the below user stories and get all of the tests to pass. Give it your ow
 
 You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 
+## Capture
+![screencapture-127-0-0-1-5500-index-html-2021-07-07-10_50_41](https://user-images.githubusercontent.com/86135622/124771064-39144580-df11-11eb-82f9-28e632bfb04c.png)
+
 ## User Story #1: 
 My tribute page should have an element with a corresponding id="main", which contains all other elements.
 
