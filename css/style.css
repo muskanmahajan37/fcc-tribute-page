@@ -1,0 +1,108 @@
+/* general */
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    color: rgb(40, 40, 40);
+    font-family: 'Noto Serif', serif;
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+/* main */
+#main {
+    margin: 3rem 1rem;
+    text-align: center;
+}
+
+/* header */
+#title {
+    font-size: 4.5rem;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    margin-bottom: 3.5rem;
+    font-style: italic;
+    color: rgb(100, 100, 100);
+}
+
+/* image */
+#img-div {
+    background-color: rgb(250, 250, 250);
+    padding: 2.5rem;
+    border-radius: .5rem;
+    margin-bottom: 3.5rem;
+}
+
+#image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: .5rem;
+    margin-bottom: 2.5rem;
+}
+
+#img-caption {
+    font-size: 1.4rem;
+    color: rgb(100, 100, 100);
+    padding: 0;
+}
+
+/* list */
+#title-info {
+    font-size: 3rem;
+}
+
+#list-info {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+    text-align: left;
+}
+
+#list-info li {
+    margin-bottom: 1.5rem;
+}
+
+#blockquote {
+    max-width: 600px;
+    margin: 0 auto 2.5rem auto;
+    color: rgb(100, 100, 100);
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#blockquote cite {
+    font-weight: bold;
+}
+
+/* footer */
+#footer {
+    padding: 2.5rem 0 0 0;
+    color: rgb(100, 100, 100);
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+    #main {
+        margin: 0;
+    }
+    
+    #title {
+        font-size: 3.5rem;
+    }
+}
